@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 21,
+    "editor.tabSize": 4,
+    "terminal.integrated.fontWeightBold": "normal",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "Visual Studio Light"
+}

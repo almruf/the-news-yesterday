@@ -1,0 +1,9 @@
+.category-btn :hover {
+      color: rgba(48, 6, 235, 0.597);
+      border-color: rgba(22, 6, 251, 0.958);
+     
+}
+.category-btn{
+      text-decoration: none;
+      font-size: large;
+}
