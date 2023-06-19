@@ -9,3 +9,8 @@ a.nav-link{
 .userProfilePhoto{
       width: 50px;
 }
+.nav-btn{
+      text-decoration: none;
+      font-size: 18px;
+}
+

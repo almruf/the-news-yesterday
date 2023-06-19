@@ -30,14 +30,15 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand>
+            <></>
             <Link to="/" className="brand-name">
-              The News Yesterday
+            <img src="/src/assets/brands/logobrand.png" alt=""/> The News Yesterday
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/">All-News</Link>
+              <Nav.Link href="#all-news">all news</Nav.Link>
               <Nav.Link href="#pricing">Pricing</Nav.Link>
               <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

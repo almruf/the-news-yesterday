@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import { FaEye, FaRegBookmark, FaShareAlt, FaStar } from "react-icons/fa";
 
+
 const NewsSummeryCard = ({news}) => {
     //  console.log(news)
       const {_id,title,rating, total_view, image_url, details, author} = news;
-     
+      
       return (
             <Card className="text-center mb-4 ">
             <Card.Header className='d-flex justify-content-between align-item-center'>

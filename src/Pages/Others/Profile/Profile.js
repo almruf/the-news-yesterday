@@ -2,8 +2,10 @@ import React, { useContext, useRef, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { AuthContext } from "../../../Context/AuthProvider/AuthProvider";
+import useTitle from "../../../createhook/useTitle";
 
 const Profile = () => {
+  useTitle('profile')
   const { user } = useContext(AuthContext);
   const [name, setName] = useState(user?.displayName);
   // useref another way to usestate  
